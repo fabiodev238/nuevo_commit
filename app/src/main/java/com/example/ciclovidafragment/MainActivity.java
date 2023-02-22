@@ -14,6 +14,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Log.i("CICLOVIDA", "Activity onCreate");
 
+
+
         Toast.makeText(this, "mensaje de actvidad", Toast.LENGTH_SHORT).show();
 
         // los activitys si crean un context de memoria, los fragmentos no crean contextos de memoria.
